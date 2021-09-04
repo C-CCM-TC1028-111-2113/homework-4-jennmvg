@@ -1,0 +1,10 @@
+import math
+
+n= int(input("ingrese un número:"))
+
+for numero in range (n):
+
+    if numero%2==0:
+        print("#")
+    else: 
+        print ("%")    
