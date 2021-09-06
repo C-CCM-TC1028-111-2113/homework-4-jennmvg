@@ -6,9 +6,9 @@ def main():
     index=int(input('Enter the index: '))
     if index>1:
       break
-    print("0",end = "")
+    print("0")
     pass 
-  for i in range(1,index):
+  for i in range(0,index):
     z=x+y
     #print(f"{z}",end=" ")
     x=y
